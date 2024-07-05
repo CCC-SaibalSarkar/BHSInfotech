@@ -5,10 +5,11 @@ function submitForm(event) {
     
     // // Collect form data
     // const formData = {
-    //     name: document.getElementById('name').value,
-    //     email: document.getElementById('email').value,
-    //     subject: document.getElementById('subject').value,
-    //     message: document.getElementById('message').value
+    //     id: Math.floor(Math.random() * 1000000),
+    //     Name: document.getElementById('name').value,
+    //     Email: document.getElementById('email').value,
+    //     Subject: document.getElementById('subject').value,
+    //     Message: document.getElementById('message').value
     // };
 
     // // Display loading message
