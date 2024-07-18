@@ -17,9 +17,8 @@ function submitForm(event) {
     loadingElement.style.display = 'block';
 
     // Optional: Validate form fields here if needed
-    console.log("OK");
     // Make API POST request
-    fetch('http://localhost:12345/api/contact/AddData', {
+    fetch('https://www.bhsinfotech.com/BHSSiteApi/api/contact/AddData', {
         method: 'POST',
         headers: {
             'Content-Type': 'application/json',
@@ -47,6 +46,7 @@ function submitForm(event) {
     .catch(error => {
         console.error('Error:', error);
         // Show error message
+        loadingElement.style.display = 'none';
         const errorMessageElement = document.querySelector('.error-message');
         errorMessageElement.textContent = 'There was an error sending your message. Please try again later.';
         errorMessageElement.style.display = 'block';
