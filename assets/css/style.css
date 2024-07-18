@@ -615,37 +615,70 @@ section {
   margin-bottom: 0;
 }
 
-.services .icon-box-pink .icon i {
-  color: #ff689b;
-}
-
-.services .icon-box-pink:hover {
-  border-color: #ff689b;
-}
-
-.services .icon-box-cyan .icon i {
-  color: #3fcdc7;
-}
-
-.services .icon-box-cyan:hover {
-  border-color: #3fcdc7;
-}
-
-.services .icon-box-green .icon i {
-  color: #41cf2e;
-}
-
-.services .icon-box-green:hover {
-  border-color: #41cf2e;
-}
-
 .services .icon-box-blue .icon i {
-  color: #2282ff;
+  color: #3366FF; /* Blue */
 }
 
 .services .icon-box-blue:hover {
-  border-color: #2282ff;
+  border-color: #3366FF; /* Blue */
 }
+
+.services .icon-box-green .icon i {
+  color: #33FF57; /* Green */
+}
+
+.services .icon-box-green:hover {
+  border-color: #33FF57; /* Green */
+}
+
+.services .icon-box-red .icon i {
+  color: #FF5733; /* Red */
+}
+
+.services .icon-box-red:hover {
+  border-color: #FF5733; /* Red */
+}
+
+.services .icon-box-yellow .icon i {
+  color: #FFD700; /* Yellow */
+}
+
+.services .icon-box-yellow:hover {
+  border-color: #FFD700; /* Yellow */
+}
+
+.services .icon-box-purple .icon i {
+  color: #6633FF; /* Purple */
+}
+
+.services .icon-box-purple:hover {
+  border-color: #6633FF; /* Purple */
+}
+
+.services .icon-box-orange .icon i {
+  color: #FFA500; /* Orange */
+}
+
+.services .icon-box-orange:hover {
+  border-color: #FFA500; /* Orange */
+}
+
+.services .icon-box-teal .icon i {
+  color: #008080; /* Teal */
+}
+
+.services .icon-box-teal:hover {
+  border-color: #008080; /* Teal */
+}
+
+.services .icon-box-pink .icon i {
+  color: #FF689B; /* Pink */
+}
+
+.services .icon-box-pink:hover {
+  border-color: #FF689B; /* Pink */
+}
+
 
 /*--------------------------------------------------------------
 # Portfolio
