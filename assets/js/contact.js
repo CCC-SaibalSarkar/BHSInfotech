@@ -18,7 +18,7 @@ function submitForm(event) {
 
     // Optional: Validate form fields here if needed
     // Make API POST request
-    fetch('https://www.bhsinfotech.com/BHSSiteApi/api/contact/AddData', {
+    fetch('http://localhost:12345/api/contact/AddData', {
         method: 'POST',
         headers: {
             'Content-Type': 'application/json',
